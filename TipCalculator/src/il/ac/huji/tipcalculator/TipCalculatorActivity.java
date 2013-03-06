@@ -15,6 +15,7 @@ import android.widget.TextView;
 
 public class TipCalculatorActivity extends Activity {
 
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
