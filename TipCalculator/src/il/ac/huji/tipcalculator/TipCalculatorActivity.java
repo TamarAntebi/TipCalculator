@@ -41,8 +41,8 @@ public class TipCalculatorActivity extends Activity {
 					tip.setText("Tip: $"+newY);
 				}
 				else{
-					DecimalFormat twoDForm = new DecimalFormat("#.##");
-					tip.setText("Tip: $"+Double.valueOf(twoDForm.format(y)));
+					String result = String.format("%.2f", y);
+					tip.setText("Tip: $"+result);
 
 				}
 
